@@ -1,0 +1,25 @@
+<html>
+		<head>
+			<title>Update</title>
+		</head>
+                <body>
+			<h1>Update Task</h1>
+			<form method="POST" action="/update/{{d.0}}">
+				<table>
+					<tr><td>Name:</td>
+						<td><input type="text" name="title" value="{{d.1}}"/></tr></td>
+				
+					<tr><td>Detail:</td>
+						<td><input type="text" name="detail" value="{{d.2}}"/></tr></td>
+				
+					<tr><td>Date:</td>
+						<td><input type="date" name="date"value="{{d.3}}"/></tr></td>
+				
+					<tr><td></td>
+						<td><input type="submit" name="send" value="Update"/></tr><td/>
+				</table>
+			</form>
+
+		</body>
+
+</html>
